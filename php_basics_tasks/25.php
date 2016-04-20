@@ -5,10 +5,7 @@ $result = $a + $b;
 echo $result;
 ?>
 <br>
-<?=
-$a = 5;
-$b = 10;
-$result = $a + $b;
-echo $result;
+<b> <?php echo $result?> </b> <br>
+    <b> <?= $result?> </b>
 
 
